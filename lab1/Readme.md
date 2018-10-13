@@ -46,11 +46,11 @@ Then click `Terminal` to launch a new window with a SSH window at the root for t
 ### 3. Clone notebook
 
 Navigate to the *SageMaker* folder which is the root folder for all your Jupyter
-notebooks and clone the GitHub repository `https://github.com/brightsparc/aiml-lab.git`.
+notebooks and clone the GitHub repository `https://github.com/jonathankhoo/aiml-lab.git`.
 
 ```bash
 cd SageMaker
-git clone https://github.com/brightsparc/aiml-lab.git
+git clone https://github.com/jonathankhoo/aiml-lab.git
 ```
 
 ### 4. Open notebook

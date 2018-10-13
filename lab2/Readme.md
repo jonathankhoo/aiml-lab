@@ -7,8 +7,8 @@ In this lab, we will be training a machine learning algorithm on the MNIST datas
 You have an active AWS account with credits and permissions to run sagemaker jobs.  We will spin up the following resources:
 
 * `ml.t2.medium` notebook instance  
-* `ml.c4.xlarge` for training
-* `ml.m4.xlarge` for deployment
+* `ml.c5.xlarge` for training
+* `ml.m5.large` for deployment
 
 ## Steps
 
@@ -70,7 +70,7 @@ The `fit` method will train the neural network for 20 `epochs` or training cycle
 
 ![Training progress](screenshots/08-training-progress.png)
 
-The training process should take approximately 5 minutes on a `ml.c4.xlarge` instance.  Once complete you will be able to inspect the job in the Amazon Sagemaker console.
+The training process should take approximately 5 minutes on a `ml.c5.xlarge` instance.  Once complete you will be able to inspect the job in the Amazon Sagemaker console.
 
 ![Training complete](screenshots/09-training-complete.png)
 
@@ -82,7 +82,7 @@ Run the deploy step and you will get another progress bar which will in the back
 
 ![Training complete](screenshots/10-deploy-progress.png)
 
-This should take approximately 5 miunutes for a `ml.m4.xlarge` endpoint.  In the SageMaker console you will see a *Model* has been created.
+This should take approximately 5 miunutes for a `ml.m5.large` endpoint.  In the SageMaker console you will see a *Model* has been created.
 
 ![Deploy Model](screenshots/11-deploy-model.png)
 
