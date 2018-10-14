@@ -65,8 +65,16 @@ Then open the `lab1` folder:
 
 You can now launch each of the notebooks to work through this lab:
 
+1. [Polly_Demo.ipynb](./Polly_Demo.ipynb) - Turn text into speech and back again with Transcribe. 
 1. [Rekognition_Demo.ipynb](./Rekognition_Demo.ipynb) - Explore image classification and face recogition.
-2. [Lex_CreateBot_Demo.ipynb](./Lex_CreateBot_Demo.ipynb) - Create the Lex Chat Bot
-3. [Lex_Demo.ipynb](./Lex_Demo.ipynb) - Exercise the Lex chat bot
-4. [Polly_Demo.ipynb](./Polly_Demo.ipynb) - Turn text into speech and back again with Transcribe.
-5. [Comprehend_Demo.ipynb](./Comprehend_Demo.ipynb) - Analyse sentiment and entities from twitter including Translating content.
+1. [Comprehend_Demo.ipynb](./Comprehend_Demo.ipynb) - Analyse sentiment and entities from twitter including Translating content.
+
+The following roles for the SageMaker execution policy need to be added:
+
+    ComprehendReadOnly
+    TranslateReadOnly
+    AmazonPollyFullAccess
+    AmazonTranscribeFullAccess
+    AmazonRekognitionFullAccess
+    AmazonDynamoDBFullAccess
+    AmazonS3FullAccess
